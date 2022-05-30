@@ -41,7 +41,15 @@
         .wrap img {
             width:1564px;
         }
-        .link-text {
+        @media all and (max-width:768px) {
+            .wrap {
+                width:100%;
+            }
+            .wrap img {
+                width:100%;
+            }
+        }
+        .link-text {border:1px solid red;
             display: block;
             width: 567px;
             height: 88px;
@@ -49,25 +57,28 @@
             left: 204px;
             bottom: 1002px;
         }
-/*         @media all and (max-width:1563px) {
-            .link-text {
-                width: 37vw;
-                height: 7vw;
-                position: absolute;
-                left: 12vw;
-                bottom: 63vw;
-            }
+        .link-text img {
+            width:567px
         }
+        .link-text2 img {
+            width:567px
+         }
+
         @media all and (max-width:768px) {
             .link-text {
-                width: 37vw;
-                height: 7vw;
-                position: absolute;
-                left: 12vw;
-                bottom: 63vw;
-          }
-        } */
-        .link-text2 {
+                width: 48vw;
+            }
+            .link-text img {
+                width: 100%;
+            }
+            .link-text2 {
+                width: 48vw;
+             }
+             .link-text2 img {
+                width: 100%;
+            }
+        }
+        .link-text2 {border:1px solid red;
             display: block;
             width: 567px;
             height: 88px;
@@ -75,33 +86,16 @@
             right: 204px;
             bottom: 1002px;
         }
-/*         @media all and (max-width:1563px) {
-            .link-text2 {
-                width: 37vw;
-                height: 7vw;
-                position: absolute;
-                right: 12vw;
-                bottom: 63vw;
-            }
-        }
-
-        @media all and (max-width:768px) {
-            .link-text2 {
-                width: 37vw;
-                height: 7vw;
-                position: absolute;
-                right: 12vw;
-                bottom: 63vw;
-          }
-        } */
     </style>
 </head>
 <body>
     <style>
-        .ytu-link1 {position: absolute;left: 282px;
-            top:3933px;
-            bottom: 395px;
-            width: 643px;
+        .ytu-link1 {position: absolute;left: 282px;border:1px solid red;
+            position: absolute;
+            left: 90px;
+            top: 3933px;
+            bottom: 345px;
+            width: 655px;
             text-align: left;
         }
         .ytu-link1 li {margin-bottom:10px;display: inline-block;width:48%;margin-right:1%;}
@@ -110,23 +104,24 @@
         .ytu-link1 li:nth-child(5),
         .ytu-link1 li:nth-child(6){margin-top:11px;}
         .ytu-link1 li:nth-child(7),
-        .ytu-link1 li:nth-child(8){margin-top:11px;}
+        .ytu-link1 li:nth-child(8){margin-top:8px;}
         .ytu-link1 li:nth-child(9),
-        .ytu-link1 li:nth-child(10){margin-top:11px;}
+        .ytu-link1 li:nth-child(10){margin-top:8px;}
         .ytu-link1 li:nth-child(11),
         .ytu-link1 li:nth-child(12){margin-top:11px;}
         .ytu-link1 li:nth-child(13),
         .ytu-link1 li:nth-child(14){margin-top:11px;}
         .ytu-link1 li:nth-child(15),
-        .ytu-link1 li:nth-child(16){margin-top:11px;}
+        .ytu-link1 li:nth-child(16){margin-top:6px;}
         .ytu-link1 li:nth-child(17),
-        .ytu-link1 li:nth-child(18){margin-top:11px;}
+        .ytu-link1 li:nth-child(18){margin-top:8px;}
         .ytu-link1 li a {display:block;width:91%;height:30px;font-size:0;opacity: 0;}
 
-        .ytu-link2 {position: absolute;right: 282px;
-            top:3933px;
+        .ytu-link2 {position: absolute;right: 282px;border:1px solid red;
+            right: 105px;
+            top: 3933px;
             bottom: 395px;
-            width: 643px;
+            width: 590px;
             text-align: left;
         }
         .ytu-link2 li {margin-bottom:10px;display: inline-block;width:48%;margin-right:1%;}
@@ -203,8 +198,8 @@
         </ul>
 
 
-        <a href="https://whova.com/portal/registration/globa6_202206/" class="link-text" target="_blank"><img src="img/btn1.png" style="width:567px !important;" alt=""></a>
-        <a href="https://south-korea-partnering-system.b2match.io/page-691" class="link-text2" target="_blank"><img src="img/btn2.png" style="width:567px !important;" alt=""></a>
+        <a href="https://whova.com/portal/registration/globa6_202206/" class="link-text" target="_blank"><img src="img/btn1.png" alt=""></a>
+        <a href="https://south-korea-partnering-system.b2match.io/page-691" class="link-text2" target="_blank"><img src="img/btn2.png" alt=""></a>
         <img src="img/eng_rsvp3.jpg" alt="">
     </div>
 </body>
